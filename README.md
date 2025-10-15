@@ -5,9 +5,6 @@ and employees to browse menus, rate meals, view historical data and complete sur
 Matija Štefanec, Vili Vugrinec and Antonia Galinec for the needs of the course Analysis and program development. With the help of the company Span, project was successfully finished.
 https://tinyurl.com/foi-menzamate
 
-
-Architecture
-
 The project consists of main components:
  - Frontend (Android – Kotlin): A mobile application that provides an intuitive interface for students and employees.
  - Backend (C# / .NET): A RESTful API built in Visual Studio Code that handles data management, authentication, and communication with the frontend.
