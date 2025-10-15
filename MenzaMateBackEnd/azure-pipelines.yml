@@ -1,0 +1,17 @@
+schedules:
+  - cron: "0 12 * * *"  # Svaki dan u 12:00 UTC
+    displayName: "Daily Scrape at Noon"
+    branches:
+      include:
+        - main  
+
+jobs:
+  - job: ScrapeMenus
+    displayName: 'Scrape Menus and Save'
+    pool:
+      name: 'Azure Pipelines' 
+
+    steps:
+      - script: |
+          curl -X POST https://menzamate-f0hvaddye6b3fwfw.northeurope-01.azurewebsites.net/scrape-and-save
+        displayName: 'Call ScrapeAndSaveMenus API'

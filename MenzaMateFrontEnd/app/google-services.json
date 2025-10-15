@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "453869849942",
+    "project_id": "menzamate-442313",
+    "storage_bucket": "menzamate-442313.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453869849942:android:d9b28f75c2592211c69af7",
+        "android_client_info": {
+          "package_name": "hr.foi.rampu.menzamatefrontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453869849942-sn13c8n5rmrh774784tb6nataafrmpfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.foi.rampu.menzamatefrontend",
+            "certificate_hash": "bb2bdcf163e22a17d932e88c20bbf6598d986083"
+          }
+        },
+        {
+          "client_id": "453869849942-36q4hich436t250tgiks39nsmdv9fo97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ4hTvDYfbO33tgTA6qRNzKSMb2rBta50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453869849942-36q4hich436t250tgiks39nsmdv9fo97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
